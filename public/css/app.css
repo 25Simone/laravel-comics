@@ -12242,6 +12242,7 @@ header .searchbar {
 }
 
 .main {
+  padding: 50px;
   width: 100%;
   background: #1c1c1c;
   position: relative;
@@ -12255,7 +12256,7 @@ header .searchbar {
 .main .cards-container {
   display: flex;
   flex-wrap: wrap;
-  padding: 50px 30px;
+  padding: 30px;
 }
 
 .main #load-more-section {
@@ -12296,5 +12297,125 @@ header .searchbar {
   font-size: 15px;
   font-weight: 400;
   margin-top: 15px;
+}
+
+footer #shop-shortcut-section {
+  background: #0282f9;
+  color: #fff;
+}
+
+footer #shop-shortcut-section > div {
+  padding: 30px;
+}
+
+footer #shop-shortcut-section > div ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer #shop-shortcut-section > div ul li {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+footer #shop-shortcut-section > div ul li .shortcut-icon {
+  width: 45px;
+  margin-right: 15px;
+}
+
+footer #footer-links-section {
+  height: 420px;
+  background: url("/images/footer-bg.jpg");
+  background-size: cover;
+  color: #fff;
+}
+
+footer #footer-links-section > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer #footer-links-section > div .links-lists {
+  display: flex;
+}
+
+footer #footer-links-section > div .links-lists > div {
+  display: flex;
+  flex-direction: column;
+}
+
+footer #footer-links-section > div .links-lists > div h3,
+footer #footer-links-section > div .links-lists > div .h3 {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+footer #footer-links-section > div .links-lists > div li {
+  margin: 5px 0;
+  color: #999;
+}
+
+footer #footer-links-section > div #dc-logo {
+  display: flex;
+  align-items: center;
+  max-height: 420px;
+  overflow: hidden;
+}
+
+footer #footer-links-section > div #dc-logo img {
+  width: 600px;
+}
+
+footer #footer-socials-section {
+  background: #303030;
+  padding: 30px;
+}
+
+footer #footer-socials-section > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer #footer-socials-section > .container .button {
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  border: 2px solid #0282f9;
+  cursor: pointer;
+  transform: all 1.5s;
+}
+
+footer #footer-socials-section > .container .button:hover {
+  transform: scale(1.05);
+}
+
+footer #footer-socials-section > .container > div {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer #footer-socials-section > .container > div span {
+  color: #0282f9;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li {
+  font-size: 15px;
+}
+
+footer li:hover {
+  text-decoration: underline;
 }
 
