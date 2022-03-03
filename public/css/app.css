@@ -12173,6 +12173,16 @@ fieldset:disabled .btn {
   }
 }
 
+.button {
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px 25px;
+  display: inline-block;
+  background: #0282f9;
+  cursor: pointer;
+}
+
 header {
   height: 110px;
   background: #fff;
@@ -12229,5 +12239,62 @@ header .searchbar {
   height: 450px;
   background: url("/images/jumbotron.jpg");
   background-size: cover;
+}
+
+.main {
+  width: 100%;
+  background: #1c1c1c;
+  position: relative;
+}
+
+.main .button.current-series-button {
+  position: absolute;
+  top: -25px;
+}
+
+.main .cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 30px;
+}
+
+.main #load-more-section {
+  display: flex;
+  justify-content: center;
+}
+
+.main #load-more-section .button {
+  padding: 8px 35px;
+  font-size: 18px;
+}
+
+.main .card {
+  background-color: transparent;
+  border: none;
+  width: 16.6666666667%;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.main .card .card-image {
+  position: relative;
+  height: 170px;
+}
+
+.main .card .card-image .thumb {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.main .card h5,
+.main .card .h5 {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 15px;
 }
 

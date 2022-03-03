@@ -10,7 +10,13 @@
 <body>
     {{-- HEADER --}}
     @include('partials.header')
+
     {{-- JUMBOTRON --}}
-    @include('partials.jumbotron')
+    @yield('jumbotron')
+    
+    {{-- MAIN --}}
+    <main>
+        @yield('mainContent')
+    </main>
 </body>
 </html>

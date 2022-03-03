@@ -1,8 +1,13 @@
 // BOOTSTRAP
 @import "~bootstrap/scss/bootstrap";
+// MAIN SCSS
+@import "./partials/main";
 
 // HEADER
 @import "./partials/header";
 
 // JUMBOTRON
 @import "./partials/jumbotron";
+
+// MAIN CONTENT
+@import "./partials/mainContent";
