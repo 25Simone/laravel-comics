@@ -14,5 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $navItems = config('navItems');
+
+    return view('home', compact("navItems"));
 })->name('home');
