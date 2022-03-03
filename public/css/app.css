@@ -12225,3 +12225,9 @@ header .searchbar {
   text-align: right;
 }
 
+#jumbotron {
+  height: 450px;
+  background: url("/images/jumbotron.jpg");
+  background-size: cover;
+}
+
