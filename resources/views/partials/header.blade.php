@@ -1,3 +1,17 @@
+<?php
+    $navItems = [
+        "characters" => "characters",
+        "comics" => "comics",
+        "movies" => "movies",
+        "tv" => "tv",
+        "games" => "games",
+        "collectibles" => "collectibles",
+        "videos" => "videos",
+        "fans" => "fans",
+        "news" => "news",
+        "shop" => "shop",
+    ];
+?>
 <header>
     <header>
         <!-- LOGO -->
@@ -10,7 +24,7 @@
         <nav>
             <ul>
                 @foreach($navItems as $key => $item)
-                    <li> <a href="/">{{ strtoupper($item) }}</a> </li>
+                    <li> <a href="{{ route($key) }}">{{ strtoupper($item) }}</a> </li>
                 @endforeach
             </ul>
         </nav>

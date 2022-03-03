@@ -1,5 +1,7 @@
 @extends('layouts.default')
 
+@section('pageTitle', 'Home')
+
 {{-- JUMBOTRON --}}
 @section('jumbotron')
     @include('partials.jumbotron')
