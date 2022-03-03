@@ -10,5 +10,7 @@
 <body>
     {{-- HEADER --}}
     @include('partials.header')
+    {{-- JUMBOTRON --}}
+    @include('partials.jumbotron')
 </body>
 </html>
