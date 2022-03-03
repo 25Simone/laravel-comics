@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@import url(https://use.fontawesome.com/releases/v5.7.1/css/all.css);@charset "UTF-8";
 
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
@@ -12228,11 +12228,27 @@ header nav ul li:hover a {
 }
 
 header .searchbar {
-  border-top: none;
-  border-right: none;
-  border-left: none;
   border-bottom: 2px solid #0282f9;
-  text-align: right;
+  color: #333;
+}
+
+header .searchbar input {
+  width: 150px;
+}
+
+header .searchbar input::-moz-placeholder {
+  font-weight: bold;
+  color: #333;
+}
+
+header .searchbar input:-ms-input-placeholder {
+  font-weight: bold;
+  color: #333;
+}
+
+header .searchbar input::placeholder {
+  font-weight: bold;
+  color: #333;
 }
 
 #jumbotron {
@@ -12343,6 +12359,7 @@ footer #footer-links-section > div .links-lists {
 }
 
 footer #footer-links-section > div .links-lists > div {
+  padding: 0 15px;
   display: flex;
   flex-direction: column;
 }
@@ -12381,10 +12398,7 @@ footer #footer-socials-section > .container {
 }
 
 footer #footer-socials-section > .container .button {
-  color: #fff;
-  font-size: 20px;
   padding: 10px;
-  border: 2px solid #0282f9;
   cursor: pointer;
   transform: all 1.5s;
 }

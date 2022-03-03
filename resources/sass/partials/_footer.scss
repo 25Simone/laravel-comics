@@ -1,7 +1,7 @@
 footer{
     #shop-shortcut-section{
-        background: #0282f9;
-        color: #fff;
+        background: $blue-color;
+        color: $text-primary-color;
         > div{
             padding: 30px;
             ul{
@@ -25,7 +25,7 @@ footer{
         height: 420px;
         background: url('/images/footer-bg.jpg');
         background-size: cover;
-        color: #fff;
+        color: $text-primary-color;
         >div{
             display: flex;
             justify-content: space-between;
@@ -33,6 +33,7 @@ footer{
             .links-lists{
                 display: flex;
                 >div{
+                    padding: 0 15px;
                     display: flex;
                     flex-direction: column;
                     h3{
@@ -41,7 +42,7 @@ footer{
                     }
                     li{
                         margin: 5px 0;
-                        color: #999;
+                        color: $text-tertiary-color;
                     }
                 }
             }
@@ -65,10 +66,7 @@ footer{
             justify-content: space-between;
             align-items: center;
             .button{
-                color: #fff;
-                font-size: 20px;
                 padding: 10px;
-                border: 2px solid #0282f9;
                 cursor: pointer;
                 transform: all 1.5s;
                 &:hover{
@@ -81,7 +79,7 @@ footer{
                 justify-content: space-between;
                 align-items: center;
                 span{
-                    color: #0282f9;
+                    color: $blue-color;
                     font-size: 20px;
                     cursor: pointer
                 }

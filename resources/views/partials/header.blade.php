@@ -28,6 +28,9 @@
                 @endforeach
             </ul>
         </nav>
-        <input class="searchbar mx-3" type="text" placeholder="Search">
+        <div class="searchbar mx-4">
+            <input class="border-0 text-end fs-5" type="text" placeholder="Search">
+            <i class="fas fa-search"></i>
+        </div>
     </header>
 </header>

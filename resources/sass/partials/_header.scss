@@ -1,6 +1,6 @@
 header{
     height: 110px;
-    background: #fff;
+    background: $text-primary-color;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -25,19 +25,23 @@ header{
                     color: #444;
                 }
                 &:hover{
-                    border-color: #0282f9;
+                    border-color: $blue-color;
                 }
                 &:hover a{
-                   color: #0282f9; 
+                   color: $blue-color; 
                 }
             }
         }
     }
     .searchbar {
-        border-top: none;
-        border-right: none;
-        border-left: none;
-        border-bottom: 2px solid #0282f9;
-        text-align: right;
+        border-bottom: 2px solid $blue-color;
+        color: $text-secondary-color;
+        input{
+            width: 150px;
+            &::placeholder{
+                font-weight: bold;
+                color: $text-secondary-color;
+            }
+        }
     }
 }

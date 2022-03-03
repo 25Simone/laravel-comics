@@ -1,3 +1,9 @@
+// FONTAWESOME
+@import url('https://use.fontawesome.com/releases/v5.7.1/css/all.css');
+
+// VARIABLES
+@import "./variables";
+
 // BUTTON
 .button{
     color: #fff;
@@ -5,6 +11,6 @@
     font-weight: bold;
     padding: 10px 25px;
     display: inline-block;
-    background: #0282f9;
+    background: $blue-color;
     cursor: pointer;
 }
