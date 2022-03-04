@@ -2,16 +2,8 @@
 
 @section('pageTitle', 'Home')
 
-{{-- JUMBOTRON --}}
-@section('jumbotron')
-    @include('partials.jumbotron')
-@endsection
-
-{{-- MAIN CONTENT --}}
 @section('mainContent')
-    @include('partials.mainContent')
-@endsection
-
-@section('pre-footer')
-    @include('partials.preFooter')
+    <div class="p-5 m-5">
+        <h1>HOME</h1>
+    </div>
 @endsection

@@ -2,8 +2,17 @@
 
 @section('pageTitle', 'Comics')
 
+{{-- JUMBOTRON --}}
+@section('jumbotron')
+    @include('partials.jumbotron')
+@endsection
+
+{{-- MAIN CONTENT --}}
 @section('mainContent')
-    <div class="p-5 m-5">
-        <h1>COMICS</h1>
-    </div>
+    @include('partials.mainContent')
+@endsection
+
+{{-- PRE FOOTER --}}
+@section('pre-footer')
+    @include('partials.preFooter')
 @endsection
