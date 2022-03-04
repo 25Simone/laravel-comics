@@ -24,12 +24,6 @@ header{
                     text-decoration: none;
                     color: #444;
                 }
-                &:hover{
-                    border-color: $blue-color;
-                }
-                &:hover a{
-                   color: $blue-color; 
-                }
             }
         }
     }

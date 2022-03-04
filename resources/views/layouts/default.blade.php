@@ -19,6 +19,8 @@
         @yield('mainContent')
     </main>
 
+    {{-- PRE FOOTER --}}
+    @yield('pre-footer')
     {{-- FOOTER --}}
     @include('partials.footer')
 </body>

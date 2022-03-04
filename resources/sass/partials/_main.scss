@@ -14,3 +14,11 @@
     background: $blue-color;
     cursor: pointer;
 }
+
+// ACTIVE
+.active{
+    border-color: $blue-color;
+    a{
+        color: $blue-color;
+    }
+}

@@ -1,0 +1,21 @@
+#shop-shortcut-section{
+    background: $blue-color;
+    color: $text-primary-color;
+    > div{
+        padding: 30px;
+        ul{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            li{
+                font-size: 12px;
+                display: flex;
+                align-items: center;
+                .shortcut-icon{
+                    width: 45px;
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+}

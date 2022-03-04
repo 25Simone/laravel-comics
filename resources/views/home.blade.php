@@ -11,3 +11,7 @@
 @section('mainContent')
     @include('partials.mainContent')
 @endsection
+
+@section('pre-footer')
+    @include('partials.preFooter')
+@endsection
