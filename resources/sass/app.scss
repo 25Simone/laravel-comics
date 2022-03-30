@@ -11,10 +11,14 @@
 // JUMBOTRON
 @import "./partials/jumbotron";
 
-// MAIN CONTENT
-@import "./partials/mainContent";
+// CARD
+@import "./partials/comicCard";
 
 // PRE FOOTER
 @import "./partials/preFooter";
 //FOOTER
 @import "./partials/footer";
+
+//COMICS
+@import "./comics/index";
+@import "./comics/show";

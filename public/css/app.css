@@ -12257,35 +12257,7 @@ header .searchbar input::placeholder {
   background-size: cover;
 }
 
-.main {
-  padding: 50px;
-  width: 100%;
-  background: #1c1c1c;
-  position: relative;
-}
-
-.main .button.current-series-button {
-  position: absolute;
-  top: -25px;
-}
-
-.main .cards-container {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 30px;
-}
-
-.main #load-more-section {
-  display: flex;
-  justify-content: center;
-}
-
-.main #load-more-section .button {
-  padding: 8px 35px;
-  font-size: 18px;
-}
-
-.main .card {
+.card {
   background-color: transparent;
   border: none;
   width: 16.6666666667%;
@@ -12293,12 +12265,12 @@ header .searchbar input::placeholder {
   cursor: pointer;
 }
 
-.main .card .card-image {
+.card .card-image {
   position: relative;
   height: 170px;
 }
 
-.main .card .card-image .thumb {
+.card .card-image .thumb {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -12307,12 +12279,15 @@ header .searchbar input::placeholder {
      object-position: top;
 }
 
-.main .card h5,
-.main .card .h5 {
+.card .card-data {
   color: #fff;
+  margin-top: 15px;
+}
+
+.card .card-data h5,
+.card .card-data .h5 {
   font-size: 15px;
   font-weight: 400;
-  margin-top: 15px;
 }
 
 #shop-shortcut-section {
@@ -12431,5 +12406,49 @@ footer ul li {
 
 footer li:hover {
   text-decoration: underline;
+}
+
+.main {
+  padding: 50px;
+  width: 100%;
+  background: #1c1c1c;
+  position: relative;
+}
+
+.main .button.current-series-button {
+  position: absolute;
+  top: -25px;
+}
+
+.main .cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.main #load-more-section {
+  display: flex;
+  justify-content: center;
+}
+
+.main #load-more-section .button {
+  padding: 8px 35px;
+  font-size: 18px;
+}
+
+.main #load-more-section .button a {
+  color: #fff;
+}
+
+.details-page .card .card-data {
+  color: #000;
+}
+
+.details-page .card-image {
+  height: auto;
+}
+
+.details-page .card-image .thumb {
+  height: auto;
 }
 

@@ -24,7 +24,7 @@
         <nav>
             <ul>
                 @foreach($navItems as $key => $item)
-                    <li class="{{ Request::route()->getName() === $key ? 'active' : '' }}"> <a href="{{ route($key) }}">{{ strtoupper($item) }}</a> </li>
+                    <li class="{{ Request::route()->getName() === $key ? 'active' : '' }}"> <a href="#">{{ strtoupper($item) }}</a> </li>
                 @endforeach
             </ul>
         </nav>
